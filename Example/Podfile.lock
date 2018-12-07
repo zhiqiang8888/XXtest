@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - GTMediator (0.0.1)
+  - XXtest (0.1.0):
+    - AFNetworking (~> 2.3)
+    - GTMediator
+    - XXtest/aatest (= 0.1.0)
+    - XXtest/sstest (= 0.1.0)
+  - XXtest/aatest (0.1.0):
+    - AFNetworking (~> 2.3)
+    - GTMediator
+  - XXtest/sstest (0.1.0):
+    - AFNetworking (~> 2.3)
+    - GTMediator
+
+DEPENDENCIES:
+  - XXtest (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - GTMediator
+
+EXTERNAL SOURCES:
+  XXtest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  GTMediator: 97a4d208f3606fff2c60998fe689cd2d6e16fd82
+  XXtest: 0b8a16e4d92c45f94b2c580b60fbe9302641ddb2
+
+PODFILE CHECKSUM: cff9d8bf9c2a752960b1b0030832c5654b9632a2
+
+COCOAPODS: 1.5.3

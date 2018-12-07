@@ -1,0 +1,45 @@
+{
+  "name": "XXtest",
+  "version": "0.1.0",
+  "summary": "A short description of XXtest.",
+  "homepage": "https://github.com/ZhiQiang.Feng/XXtest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ZhiQiang.Feng": "35831520+zhiqiang8888@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/ZhiQiang.Feng/XXtest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XXtest/Classes/**/*.swift",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "GTMediator": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "sstest",
+      "platforms": {
+        "ios": "8.0"
+      },
+      "source_files": "XXtest/SStest/**/*"
+    },
+    {
+      "name": "aatest",
+      "platforms": {
+        "ios": "8.0"
+      },
+      "source_files": "XXtest/AAtest/**/*"
+    }
+  ]
+}

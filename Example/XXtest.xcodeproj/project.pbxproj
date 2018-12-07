@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		80C44B3A01BC668C5652242C /* Pods_XXtest_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BBD36CA062F4B997CDA795 /* Pods_XXtest_Tests.framework */; };
+		90279D1D21BA1EB600CB8EC3 /* 123.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90279D1C21BA1EB600CB8EC3 /* 123.swift */; };
 		FD98186648330DFB83EC6416 /* Pods_XXtest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C287C7962D66100CDDE505A /* Pods_XXtest_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +31,8 @@
 /* Begin PBXFileReference section */
 		0C287C7962D66100CDDE505A /* Pods_XXtest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXtest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BBD36CA062F4B997CDA795 /* Pods_XXtest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXtest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3088EA2E6E9C8CCBD9734D9B /* XXtest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XXtest.podspec; path = ../XXtest.podspec; sourceTree = "<group>"; };
-		46696E4C6B48DB4EAFFBDB30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3088EA2E6E9C8CCBD9734D9B /* XXtest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XXtest.podspec; path = ../XXtest.podspec; sourceTree = "<group>"; };
+		46696E4C6B48DB4EAFFBDB30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XXtest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXtest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,11 +43,12 @@
 		607FACE51AFB9204008FA782 /* XXtest_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXtest_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		90279D1C21BA1EB600CB8EC3 /* 123.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 123.swift; path = ../../XXtest/Classes/123.swift; sourceTree = "<group>"; };
 		9D2F8C9131AA4C95726550ED /* Pods-XXtest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXtest_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXtest_Tests/Pods-XXtest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B48104A5449615A4C05A6693 /* Pods-XXtest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXtest_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXtest_Example/Pods-XXtest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D75FEA1A0D6927A9FBC9A1DA /* Pods-XXtest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXtest_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXtest_Tests/Pods-XXtest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EBF6188B5F89E5755A551A92 /* Pods-XXtest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXtest_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXtest_Example/Pods-XXtest_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FB252BFB78F4DD07DBC573FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FB252BFB78F4DD07DBC573FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				90279D1C21BA1EB600CB8EC3 /* 123.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -266,15 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-XXtest_Tests-checkManifestLockResult.txt",
 			);
@@ -288,16 +287,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XXtest_Example/Pods-XXtest_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMediator/GTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/XXtest/XXtest.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XXtest.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,15 +309,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-XXtest_Example-checkManifestLockResult.txt",
 			);
@@ -335,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				90279D1D21BA1EB600CB8EC3 /* 123.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
